@@ -1,0 +1,19 @@
+{
+	"card":[
+		{
+			"title":"TESTTITLE",
+			"body":"TESTBODY",
+			"rep":"9",
+			"effect":"0",
+			"effectforce":"9"
+		},
+		{
+			"title":"TESTTITLE2",
+			"body":"TESTBODY2",
+			"rep":"9",
+			"effect":"0",
+			"effectforce":"9"
+		}
+	]
+}
+	

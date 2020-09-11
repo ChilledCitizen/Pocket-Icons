@@ -7,6 +7,10 @@ public class GameController : MonoBehaviour
 
     public int TurnTimelimit = 60;
     public bool PlayerTurn;
+
+    public Cardpack Pack;
+    public UIController UIControl;
+    public CardInitializer Initializer;
     // Start is called before the first frame update
     void Start()
     {

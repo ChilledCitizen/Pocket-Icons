@@ -1,15 +1,195 @@
 {
 	"card":[
 		{
-			"title":"TESTTITLE",
+			"title":"Sappho",
 			"body":"TESTBODY",
 			"rep":"9",
 			"effect":"0",
 			"effectforce":"9"
 		},
 		{
-			"title":"TESTTITLE2",
+			"title":"Alan Turing",
 			"body":"TESTBODY2",
+			"rep":"9",
+			"effect":"1",
+			"effectforce":"9"
+		},{
+			"title":"St Sebastian",
+			"body":"TESTBODY",
+			"rep":"9",
+			"effect":"0",
+			"effectforce":"9"
+		},
+		{
+			"title":"Tove Jansson",
+			"body":"TESTBODY2",
+			"rep":"9",
+			"effect":"1",
+			"effectforce":"9"
+		},{
+			"title":"Oscar Wilde",
+			"body":"TESTBODY",
+			"rep":"9",
+			"effect":"0",
+			"effectforce":"9"
+		},
+		{
+			"title":"Marsha P. Johnson",
+			"body":"TESTBODY2",
+			"rep":"9",
+			"effect":"1",
+			"effectforce":"9"
+		},{
+			"title":"Babadook",
+			"body":"TESTBODY",
+			"rep":"9",
+			"effect":"0",
+			"effectforce":"9"
+		},
+		{
+			"title":"Bugs Bunny",
+			"body":"TESTBODY2",
+			"rep":"9",
+			"effect":"1",
+			"effectforce":"9"
+		},{
+			"title":"Dr. Frank N. Furter",
+			"body":"TESTBODY",
+			"rep":"9",
+			"effect":"0",
+			"effectforce":"9"
+		},
+		{
+			"title":"Mystique",
+			"body":"TESTBODY2",
+			"rep":"9",
+			"effect":"1",
+			"effectforce":"9"
+		},{
+			"title":"Kake",
+			"body":"TESTBODY",
+			"rep":"9",
+			"effect":"0",
+			"effectforce":"9"
+		},
+		{
+			"title":"Nuuskamuikkunen",
+			"body":"TESTBODY2",
+			"rep":"9",
+			"effect":"1",
+			"effectforce":"9"
+		},{
+			"title":"Dorian Gray",
+			"body":"TESTBODY",
+			"rep":"9",
+			"effect":"0",
+			"effectforce":"9"
+		},
+		{
+			"title":"TiiviTaavi",
+			"body":"TESTBODY2",
+			"rep":"9",
+			"effect":"1",
+			"effectforce":"9"
+		},{
+			"title":"Jotaro",
+			"body":"TESTBODY",
+			"rep":"9",
+			"effect":"0",
+			"effectforce":"9"
+		},
+		{
+			"title":"Lady Gaga",
+			"body":"TESTBODY2",
+			"rep":"9",
+			"effect":"1",
+			"effectforce":"9"
+		},{
+			"title":"Britney Spears",
+			"body":"TESTBODY2",
+			"rep":"9",
+			"effect":"1",
+			"effectforce":"9"
+		},{
+			"title":"Loverne Cox",
+			"body":"TESTBODY",
+			"rep":"9",
+			"effect":"0",
+			"effectforce":"9"
+		},
+		{
+			"title":"Elton John",
+			"body":"TESTBODY2",
+			"rep":"9",
+			"effect":"1",
+			"effectforce":"9"
+		},{
+			"title":"Madonna",
+			"body":"TESTBODY",
+			"rep":"9",
+			"effect":"0",
+			"effectforce":"9"
+		},
+		{
+			"title":"David Bowie",
+			"body":"TESTBODY2",
+			"rep":"9",
+			"effect":"1",
+			"effectforce":"9"
+		},{
+			"title":"Freddie Mercury",
+			"body":"TESTBODY2",
+			"rep":"9",
+			"effect":"1",
+			"effectforce":"9"
+		},{
+			"title":"Prince",
+			"body":"TESTBODY",
+			"rep":"9",
+			"effect":"0",
+			"effectforce":"9"
+		},
+		{
+			"title":"Divine",
+			"body":"TESTBODY2",
+			"rep":"9",
+			"effect":"1",
+			"effectforce":"9"
+		},{
+			"title":"Beyonce",
+			"body":"TESTBODY",
+			"rep":"9",
+			"effect":"0",
+			"effectforce":"9"
+		},
+		{
+			"title":"Bianca Del Rio",
+			"body":"TESTBODY2",
+			"rep":"9",
+			"effect":"1",
+			"effectforce":"9"
+		},{
+			"title":"Adele",
+			"body":"TESTBODY2",
+			"rep":"9",
+			"effect":"1",
+			"effectforce":"9"
+		},{
+			"title":"Amy Winehouse",
+			"body":"TESTBODY",
+			"rep":"9",
+			"effect":"0",
+			"effectforce":"9"
+		},
+		{
+			"title":"Dolly Parton",
+			"body":"TESTBODY2",
+			"rep":"9",
+			"effect":"1",
+			"effectforce":"9"
+		},{
+			"title":"Katy Perry",
+			"body":"TESTBODY",
 			"rep":"9",
 			"effect":"0",
 			"effectforce":"9"

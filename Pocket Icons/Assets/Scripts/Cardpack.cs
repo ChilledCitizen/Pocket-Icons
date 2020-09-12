@@ -5,11 +5,13 @@ using UnityEngine;
 public class Cardpack : MonoBehaviour
 {
 
-    public int CardsInDeck;
-    List<Card> CardList;
+    public List<Card> CardList;
+    private int _cardIndex = 0;
     
-    public Cardpack()
+    public Card DrawCard()
     {
-        //CardList.Shuffle();
+        Card card = CardList[_cardIndex];
+        _cardIndex++;
+        return card;
     }
 }

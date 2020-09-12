@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Card : MonoBehaviour {
+public class Card {
     public string Title;
     public string Body;
     public int ReputationCost;
-    public bool IsBlessing;
+    public int IsBlessing;
     public int Power;
     // public Image PowerImage;
     // public Image CharacterFace;

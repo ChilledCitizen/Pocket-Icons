@@ -18,11 +18,20 @@ public class GameController : MonoBehaviour
     {
         AllCards = Initializer.GetCardsFromJson();
         Debug.Log(AllCards.Count);
-
+        AllCards.Shuffle();
         foreach(var card in AllCards)
         {
-            Debug.Log(card);
+            Debug.Log(card.Title);
         }
+
+        for(int i = 0; i <= 20; i++)
+        {
+            PlayerPack.CardList.Add(AllCards[i]);
+            AIPack.CardList.Add(AllCards[i]);
+        }
+
+        PlayerPack.CardList.Shuffle();
+        AIPack.CardList.Shuffle();
     }
 
     // Update is called once per frame

@@ -10,6 +10,6 @@ public class Cardpack : MonoBehaviour
     
     public Cardpack()
     {
-        CardList.Shuffle();
+        //CardList.Shuffle();
     }
 }

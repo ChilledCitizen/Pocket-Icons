@@ -1,199 +1,214 @@
 {
-	"card":[
+	"Items": [
 		{
-			"title":"Sappho",
-			"body":"TESTBODY",
-			"rep":"9",
-			"effect":"0",
-			"effectforce":"9"
+			"Title": "Sappho",
+			"Body": "TESTBody",
+			"ReputationCost": "9",
+			"IsBlessing": "0",
+			"Power": "9"
 		},
 		{
-			"title":"Alan Turing",
-			"body":"TESTBODY2",
-			"rep":"9",
-			"effect":"1",
-			"effectforce":"9"
-		},{
-			"title":"St Sebastian",
-			"body":"TESTBODY",
-			"rep":"9",
-			"effect":"0",
-			"effectforce":"9"
+			"Title": "Alan Turing",
+			"Body": "TESTBody2",
+			"ReputationCost": "9",
+			"IsBlessing": "1",
+			"Power": "9"
 		},
 		{
-			"title":"Tove Jansson",
-			"body":"TESTBODY2",
-			"rep":"9",
-			"effect":"1",
-			"effectforce":"9"
-		},{
-			"title":"Oscar Wilde",
-			"body":"TESTBODY",
-			"rep":"9",
-			"effect":"0",
-			"effectforce":"9"
+			"Title": "St Sebastian",
+			"Body": "TESTBody",
+			"ReputationCost": "9",
+			"IsBlessing": "0",
+			"Power": "9"
 		},
 		{
-			"title":"Marsha P. Johnson",
-			"body":"TESTBODY2",
-			"rep":"9",
-			"effect":"1",
-			"effectforce":"9"
-		},{
-			"title":"Babadook",
-			"body":"TESTBODY",
-			"rep":"9",
-			"effect":"0",
-			"effectforce":"9"
+			"Title": "Tove Jansson",
+			"Body": "TESTBody2",
+			"ReputationCost": "9",
+			"IsBlessing": "1",
+			"Power": "9"
 		},
 		{
-			"title":"Bugs Bunny",
-			"body":"TESTBODY2",
-			"rep":"9",
-			"effect":"1",
-			"effectforce":"9"
-		},{
-			"title":"Dr. Frank N. Furter",
-			"body":"TESTBODY",
-			"rep":"9",
-			"effect":"0",
-			"effectforce":"9"
+			"Title": "Oscar Wilde",
+			"Body": "TESTBody",
+			"ReputationCost": "9",
+			"IsBlessing": "0",
+			"Power": "9"
 		},
 		{
-			"title":"Mystique",
-			"body":"TESTBODY2",
-			"rep":"9",
-			"effect":"1",
-			"effectforce":"9"
-		},{
-			"title":"Kake",
-			"body":"TESTBODY",
-			"rep":"9",
-			"effect":"0",
-			"effectforce":"9"
+			"Title": "Marsha P. Johnson",
+			"Body": "TESTBody2",
+			"ReputationCost": "9",
+			"IsBlessing": "1",
+			"Power": "9"
 		},
 		{
-			"title":"Nuuskamuikkunen",
-			"body":"TESTBODY2",
-			"rep":"9",
-			"effect":"1",
-			"effectforce":"9"
-		},{
-			"title":"Dorian Gray",
-			"body":"TESTBODY",
-			"rep":"9",
-			"effect":"0",
-			"effectforce":"9"
+			"Title": "Babadook",
+			"Body": "TESTBody",
+			"ReputationCost": "9",
+			"IsBlessing": "0",
+			"Power": "9"
 		},
 		{
-			"title":"TiiviTaavi",
-			"body":"TESTBODY2",
-			"rep":"9",
-			"effect":"1",
-			"effectforce":"9"
-		},{
-			"title":"Jotaro",
-			"body":"TESTBODY",
-			"rep":"9",
-			"effect":"0",
-			"effectforce":"9"
+			"Title": "Bugs Bunny",
+			"Body": "TESTBody2",
+			"ReputationCost": "9",
+			"IsBlessing": "1",
+			"Power": "9"
 		},
 		{
-			"title":"Lady Gaga",
-			"body":"TESTBODY2",
-			"rep":"9",
-			"effect":"1",
-			"effectforce":"9"
-		},{
-			"title":"Britney Spears",
-			"body":"TESTBODY2",
-			"rep":"9",
-			"effect":"1",
-			"effectforce":"9"
-		},{
-			"title":"Loverne Cox",
-			"body":"TESTBODY",
-			"rep":"9",
-			"effect":"0",
-			"effectforce":"9"
+			"Title": "Dr. Frank N. Furter",
+			"Body": "TESTBody",
+			"ReputationCost": "9",
+			"IsBlessing": "0",
+			"Power": "9"
 		},
 		{
-			"title":"Elton John",
-			"body":"TESTBODY2",
-			"rep":"9",
-			"effect":"1",
-			"effectforce":"9"
-		},{
-			"title":"Madonna",
-			"body":"TESTBODY",
-			"rep":"9",
-			"effect":"0",
-			"effectforce":"9"
+			"Title": "Mystique",
+			"Body": "TESTBody2",
+			"ReputationCost": "9",
+			"IsBlessing": "1",
+			"Power": "9"
 		},
 		{
-			"title":"David Bowie",
-			"body":"TESTBODY2",
-			"rep":"9",
-			"effect":"1",
-			"effectforce":"9"
-		},{
-			"title":"Freddie Mercury",
-			"body":"TESTBODY2",
-			"rep":"9",
-			"effect":"1",
-			"effectforce":"9"
-		},{
-			"title":"Prince",
-			"body":"TESTBODY",
-			"rep":"9",
-			"effect":"0",
-			"effectforce":"9"
+			"Title": "Kake",
+			"Body": "TESTBody",
+			"ReputationCost": "9",
+			"IsBlessing": "0",
+			"Power": "9"
 		},
 		{
-			"title":"Divine",
-			"body":"TESTBODY2",
-			"rep":"9",
-			"effect":"1",
-			"effectforce":"9"
-		},{
-			"title":"Beyonce",
-			"body":"TESTBODY",
-			"rep":"9",
-			"effect":"0",
-			"effectforce":"9"
+			"Title": "Nuuskamuikkunen",
+			"Body": "TESTBody2",
+			"ReputationCost": "9",
+			"IsBlessing": "1",
+			"Power": "9"
 		},
 		{
-			"title":"Bianca Del Rio",
-			"body":"TESTBODY2",
-			"rep":"9",
-			"effect":"1",
-			"effectforce":"9"
-		},{
-			"title":"Adele",
-			"body":"TESTBODY2",
-			"rep":"9",
-			"effect":"1",
-			"effectforce":"9"
-		},{
-			"title":"Amy Winehouse",
-			"body":"TESTBODY",
-			"rep":"9",
-			"effect":"0",
-			"effectforce":"9"
+			"Title": "Dorian Gray",
+			"Body": "TESTBody",
+			"ReputationCost": "9",
+			"IsBlessing": "0",
+			"Power": "9"
 		},
 		{
-			"title":"Dolly Parton",
-			"body":"TESTBODY2",
-			"rep":"9",
-			"effect":"1",
-			"effectforce":"9"
-		},{
-			"title":"Katy Perry",
-			"body":"TESTBODY",
-			"rep":"9",
-			"effect":"0",
-			"effectforce":"9"
+			"Title": "TiiviTaavi",
+			"Body": "TESTBody2",
+			"ReputationCost": "9",
+			"IsBlessing": "1",
+			"Power": "9"
+		},
+		{
+			"Title": "Jotaro",
+			"Body": "TESTBody",
+			"ReputationCost": "9",
+			"IsBlessing": "0",
+			"Power": "9"
+		},
+		{
+			"Title": "Lady Gaga",
+			"Body": "TESTBody2",
+			"ReputationCost": "9",
+			"IsBlessing": "1",
+			"Power": "9"
+		},
+		{
+			"Title": "Britney Spears",
+			"Body": "TESTBody2",
+			"ReputationCost": "9",
+			"IsBlessing": "1",
+			"Power": "9"
+		},
+		{
+			"Title": "Loverne Cox",
+			"Body": "TESTBody",
+			"ReputationCost": "9",
+			"IsBlessing": "0",
+			"Power": "9"
+		},
+		{
+			"Title": "Elton John",
+			"Body": "TESTBody2",
+			"ReputationCost": "9",
+			"IsBlessing": "1",
+			"Power": "9"
+		},
+		{
+			"Title": "Madonna",
+			"Body": "TESTBody",
+			"ReputationCost": "9",
+			"IsBlessing": "0",
+			"Power": "9"
+		},
+		{
+			"Title": "David Bowie",
+			"Body": "TESTBody2",
+			"ReputationCost": "9",
+			"IsBlessing": "1",
+			"Power": "9"
+		},
+		{
+			"Title": "Freddie Mercury",
+			"Body": "TESTBody2",
+			"ReputationCost": "9",
+			"IsBlessing": "1",
+			"Power": "9"
+		},
+		{
+			"Title": "Prince",
+			"Body": "TESTBody",
+			"ReputationCost": "9",
+			"IsBlessing": "0",
+			"Power": "9"
+		},
+		{
+			"Title": "Divine",
+			"Body": "TESTBody2",
+			"ReputationCost": "9",
+			"IsBlessing": "1",
+			"Power": "9"
+		},
+		{
+			"Title": "Beyonce",
+			"Body": "TESTBody",
+			"ReputationCost": "9",
+			"IsBlessing": "0",
+			"Power": "9"
+		},
+		{
+			"Title": "Bianca Del Rio",
+			"Body": "TESTBody2",
+			"ReputationCost": "9",
+			"IsBlessing": "1",
+			"Power": "9"
+		},
+		{
+			"Title": "Adele",
+			"Body": "TESTBody2",
+			"ReputationCost": "9",
+			"IsBlessing": "1",
+			"Power": "9"
+		},
+		{
+			"Title": "Amy Winehouse",
+			"Body": "TESTBody",
+			"ReputationCost": "9",
+			"IsBlessing": "0",
+			"Power": "9"
+		},
+		{
+			"Title": "Dolly Parton",
+			"Body": "TESTBody2",
+			"ReputationCost": "9",
+			"IsBlessing": "1",
+			"Power": "9"
+		},
+		{
+			"Title": "Katy Perry",
+			"Body": "TESTBody",
+			"ReputationCost": "9",
+			"IsBlessing": "0",
+			"Power": "9"
 		}
 	]
 }
-	

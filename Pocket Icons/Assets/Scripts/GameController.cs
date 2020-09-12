@@ -24,6 +24,7 @@ public class GameController : MonoBehaviour
         AllCards.Shuffle();
         foreach(var card in AllCards)
         {
+            card.SetFace(Resources.Load<Sprite>("Faces/"+card.Title));
             Debug.Log(card.Title);
         }
 
@@ -38,8 +39,8 @@ public class GameController : MonoBehaviour
         
         for(int i = 0; i < 5; i++)
         {
-            PlayerHand.AddCard(PlayerPack.DrawCard());
-            AIHAnd.AddCard(AIPack.DrawCard());
+            PlayerHand.AddCard(PlayerPack.DrawCard(), CardPrefab);
+            AIHAnd.AddCard(AIPack.DrawCard(), CardPrefab);
         }
 
         PlayerTurn = (Random.value > 0.5f);

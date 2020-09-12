@@ -3,28 +3,25 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Card {
+public class Card : MonoBehaviour {
     public string Title;
     public string Body;
     public int ReputationCost;
     public int IsBlessing;
     public int Power;
-    // public Image PowerImage;
-    // public Image CharacterFace;
+    public Image PowerImage;
+    public Image CharacterFace;
 
-    // private void Start () {
-    //     if (IsBlessing) {
-    //         PowerImage.color = Color.green;
-    //     } else {
-    //         PowerImage.color = Color.red;
-    //     }
+    public void SetFace (Sprite face) {
+        //CharacterFace.sprite = face;
+    }
 
-    //     try {
-    //         CharacterFace.sprite = Resources.Load<Sprite> ("Faces/" + Title);
-    //     } catch {
-    //         Debug.LogError("Failed loading face");
-    //     }
-
-    // }
+    public void SetIsBlessing () {
+        if (IsBlessing == 1) {
+            PowerImage.color = Color.green;
+        } else {
+            PowerImage.color = Color.red;
+        }
+    }
 
 }

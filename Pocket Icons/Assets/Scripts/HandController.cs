@@ -12,5 +12,12 @@ public class HandController : MonoBehaviour
         GameObject g = Instantiate(cardprefab);
         var tmpCard = g.GetComponent<Card>();
         tmpCard = card;
+        g.transform.parent = HandContainer.transform;
     }
+
+    public void PlayCard()
+    {
+
+    }
+
 }

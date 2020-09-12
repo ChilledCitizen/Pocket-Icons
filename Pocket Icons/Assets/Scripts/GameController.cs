@@ -10,6 +10,8 @@ public class GameController : MonoBehaviour
 
     public Cardpack PlayerPack;
     public Cardpack AIPack;
+    public HandController PlayerHand;
+    public HandController AIHAnd;
     public UIController UIControl;
     public CardInitializer Initializer;
     public List<Card> AllCards;
@@ -24,7 +26,7 @@ public class GameController : MonoBehaviour
             Debug.Log(card.Title);
         }
 
-        for(int i = 0; i <= 20; i++)
+        for(int i = 0; i < 20; i++)
         {
             PlayerPack.CardList.Add(AllCards[i]);
             AIPack.CardList.Add(AllCards[i]);
@@ -32,6 +34,14 @@ public class GameController : MonoBehaviour
 
         PlayerPack.CardList.Shuffle();
         AIPack.CardList.Shuffle();
+        
+        for(int i = 0; i < 5; i++)
+        {
+            PlayerHand.AddCard(PlayerPack.DrawCard());
+            AIHAnd.AddCard(AIPack.DrawCard());
+        }
+
+        PlayerTurn = (Random.value > 0.5f);
     }
 
     // Update is called once per frame

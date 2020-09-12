@@ -133,6 +133,7 @@ GameObject:
   - component: {fileID: 107639994}
   - component: {fileID: 107639993}
   - component: {fileID: 107639992}
+  - component: {fileID: 107639995}
   m_Layer: 5
   m_Name: AIHandContainer
   m_TagString: Untagged
@@ -221,6 +222,20 @@ MonoBehaviour:
   m_ChildControlHeight: 0
   m_ChildScaleWidth: 1
   m_ChildScaleHeight: 1
+--- !u!114 &107639995
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 107639990}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db0233e61f8c30245b25bc79c14e4f82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CardsInHand: 0
+  HandContainer: {fileID: 107639990}
 --- !u!1 &413778862
 GameObject:
   m_ObjectHideFlags: 0
@@ -603,7 +618,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ca7a7e44bed0f541a3aed327764c958, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CardsInDeck: 0
 --- !u!114 &1555657333
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -653,6 +667,7 @@ GameObject:
   - component: {fileID: 1580213940}
   - component: {fileID: 1580213942}
   - component: {fileID: 1580213941}
+  - component: {fileID: 1580213943}
   m_Layer: 5
   m_Name: HandContainer
   m_TagString: Untagged
@@ -741,6 +756,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1580213938}
   m_CullTransparentMesh: 0
+--- !u!114 &1580213943
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1580213938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db0233e61f8c30245b25bc79c14e4f82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CardsInHand: 0
+  HandContainer: {fileID: 1580213938}
 --- !u!1 &1628982148
 GameObject:
   m_ObjectHideFlags: 0
@@ -787,7 +816,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TurnTimelimit: 60
   PlayerTurn: 0
-  Pack: {fileID: 1555657332}
+  PlayerPack: {fileID: 0}
+  AIPack: {fileID: 0}
   UIControl: {fileID: 1235189550}
   Initializer: {fileID: 1628982151}
 --- !u!114 &1628982151
@@ -889,7 +919,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ca7a7e44bed0f541a3aed327764c958, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CardsInDeck: 0
 --- !u!1 &2137195356
 GameObject:
   m_ObjectHideFlags: 0

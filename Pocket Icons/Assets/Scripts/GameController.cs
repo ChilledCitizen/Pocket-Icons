@@ -15,6 +15,7 @@ public class GameController : MonoBehaviour
     public UIController UIControl;
     public CardInitializer Initializer;
     public List<Card> AllCards;
+    public GameObject CardPrefab;
     // Start is called before the first frame update
     void Start()
     {

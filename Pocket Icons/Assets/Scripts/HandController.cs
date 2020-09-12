@@ -7,8 +7,10 @@ public class HandController : MonoBehaviour
     public int CardsInHand;
     public GameObject HandContainer;
 
-    public void AddCard(Card card)
+    public void AddCard(Card card, GameObject cardprefab)
     {
-        
+        GameObject g = Instantiate(cardprefab);
+        var tmpCard = g.GetComponent<Card>();
+        tmpCard = card;
     }
 }
